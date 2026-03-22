@@ -8,7 +8,7 @@ O objetivo do meu site é descrever o meu currículo profissional destacando min
 
 # Logo 
 
-https://ui-avatars.com/api/?background=6D28D9&color=1E1B4B&name=Diogo+Avelino
+(https://ui-avatars.com/api/?background=6D28D9&color=1E1B4B&name=Diogo+Avelino)
 
 # Nome e RM
 
