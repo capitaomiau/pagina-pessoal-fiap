@@ -1,63 +1,63 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-     font-family: 'Arial', sans-serif;
      background-color: #f5f3ff;
+     font-family: 'Arial', sans-serif;
 
 }
 
 .title-a {
-    display: flex;
     align-items: center;
     color: #6D28D9;
+    display: flex;
     margin: 0px 50px 10px 50px;
 }
 
 .title-a::before {
+    background-color: #F97316;
+    border-radius: 20px;
     content:"";
     display: inline-block;
-    width: 5px;
     height: 25px;
-    background-color: #F97316;
     margin-right: 15px;
-    border-radius: 20px;
+    width: 5px;
 }
 
 main h2 {
-    margin: 20px 200px 10px 200px;
-    display: flex;
     align-items: center;
     color: #6D28D9;
+    display: flex;
     margin-bottom: 20px;
+    margin: 20px 200px 10px 200px;
 }
 
 main h2::before {
+    background-color: #F97316;
+    border-radius: 20px;
     content:"";
     display: inline-block;
-    width: 5px;
     height: 25px;
-    background-color: #F97316;
     margin-right: 15px;
-    border-radius: 20px;
+    width: 5px;
 }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
     align-items: flex-end;
     background-color: #6D28D9;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
     padding: 15px 20px;
 }
 
 .logo {
-    width: 25px;
     height: 25px;
     object-fit: contain;
+    width: 25px;
 }
 
 .seção {
@@ -66,31 +66,31 @@ main h2::before {
 }
 
 .menu-b {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: #6D28D9;
-    color: #f5f3ff;
-    padding: 50px;
     border-top: 1px solid #ffffff;
+    color: #f5f3ff;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+    padding: 50px;
 }
 
 .buttons {     
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 20px;
 }
 
 .button {
     background-color: #ffffff;
-    color: #6D28D9;
-    padding: 12px 24px;
     border-radius: 20px; 
-    text-align: center;
-    font-weight: bold;
+    color: #6D28D9;
     cursor: pointer;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-align: center;
     transition: background 0.3s;
 }
 
@@ -99,49 +99,49 @@ main h2::before {
 }
 
 .text-a {
-     display: flex;
-     align-items: center;
-     padding: 0px 200px;
-     gap: 50px;
-     color: #1E1B4B;
+    align-items: center;
+    color: #1E1B4B;
+    display: flex;
+    gap: 50px;
+    padding: 0px 200px;
 }
 
 .b {
+    background-color: #ebe8f8;
+    border-radius: 20px;
     display: flex;
     margin: 50px 210px 20px 210px;
-    background-color: #ebe8f8;
     padding: 20px 10px 20px 10px;
-    border-radius: 20px;
 }
 
 .text-b {
-     display: flex;
-     color: #1E1B4B;
+    color: #1E1B4B;
+    display: flex;
 }
 
 .tags {
-     display: flex;
-     gap: 20px;
-     padding: 0px 200px;
+    display: flex;
+    gap: 20px;
+    padding: 0px 200px;
 }
 
 .tag {
-     flex: 1;
-     background-color: #ffffff;
-     padding: 20px;
-     border-radius: 20px;
-     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    padding: 20px;
 }
 
 .tag h3 {
-     color: #F97316;
-     margin-bottom: 15px;
+    color: #F97316;
+    margin-bottom: 15px;
 }
 
 .tag ul {
-     list-style-type: disc;
-     padding-left: 20px;
-     line-height: 1.6;
+    line-height: 1.6;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 .tag-a { border-top: 5px solid #6D28D9; }
@@ -149,18 +149,18 @@ main h2::before {
 .tag-c { border-top: 5px solid #34D399; }
 
 .especial {
+    color: #f97316;
     display: flex;
     gap: 20px;
     padding: 10px 210px 20px 210px;
-    color: #f97316;
 }
 
 .x {
-    flex: 1;
     background-color: #eee3dc;
-    padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    padding: 20px;
 }
 
 table {
@@ -170,10 +170,10 @@ table {
 }
 
 table th {
-    text-align: start;
     background-color: #6D28D9;
     color: #f5f3ff;
     padding: 10px;
+    text-align: start;
 }
 
 table td {
@@ -211,11 +211,11 @@ table td {
 }
 
 .bloco {
-    flex: 1;
     background-color: #ffffff;
-    padding: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    padding: 20px;
 }
 
 .blocos ul {
@@ -227,10 +227,10 @@ table td {
 
 .bloquinhos {
     background-color: #6D28D9;
-    color: #ffffff;
-    padding: 5px 10px;
     border-radius: 20px;
+    color: #ffffff;
     margin-right: 10px;
+    padding: 5px 10px;
 }
 
 .bloco-item1 { border-top: 5px solid #f97316; }
@@ -238,30 +238,30 @@ table td {
 .bloco-item3 { border-top: 5px solid #F97316; }
 
 .Fiap {
-    display: flex;
-    justify-content: space-between;
     color: #1E1B4B;
-    margin: 20px 210px 50px 210px;
+    display: flex;
     gap: 10px;
+    justify-content: space-between;
+    margin: 20px 210px 50px 210px;
 }
 
 .form {
+    align-items: center;
     background-color: #ffffff;
-    padding: 100px;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    justify-content: center;
-    align-items: center;
     font-weight: bold;
+    justify-content: center;
+    padding: 100px;
 }
 
 .iaP {
-    display: flex;
-    flex-direction: column;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: #1E1B4B;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
     padding: 20px 225px 50px 10px;
 }
@@ -279,17 +279,17 @@ table td {
 
 .iaP li {
     background-color: #6D28D9;
+    border-radius: 20px;
     color: #ffffff;
     padding: 5px 10px;
-    border-radius: 20px;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color:#1E1B4B;
     color: #f5f3ff;
+    display: flex;
+    justify-content: center;
     padding: 15px 20px;
 }
 
