@@ -1,0 +1,18 @@
+.text-a {
+        display: flex;
+        gap: 10px;
+    }
+
+        @media(max-width:768px) {
+            .text-a {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+    .text-b {
+        background-color:var(--cor-padrao);
+        border-radius:var(--border-radius);
+        padding: 20px;
+    }

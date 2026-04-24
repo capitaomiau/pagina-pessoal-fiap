@@ -1,0 +1,31 @@
+.blocos {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    width: 100%;
+
+}
+
+    .bloco {
+        border-top: 5px solid var(--cor-accents);
+        width: 100%;
+        background-color:var(--cor-padrao);
+        border-radius:var(--border-radius);
+        box-shadow:var(--box-shadows);
+        padding: 1rem;
+
+    }
+
+    .bloquinhos, .bolhas ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 0.6rem;
+    }
+    .bloquinhos {
+        background-color:var(--cor-primaria);
+        color:var(--cor-padrao);
+        border-radius:var(--border-radius);
+        box-shadow:var(--box-shadows);
+    }

@@ -1,0 +1,36 @@
+.tabuletinha, .tabuletona {
+    width: 100%;
+    overflow-x: auto;
+}
+
+    table {
+        width: 100%;
+        min-width: 600px;
+        border-collapse: collapse;
+        background-color:var(--cor-padrao);
+        border-radius:var(--border-radius);
+        box-shadow:var(--box-shadows);
+        
+    }
+
+    tr th {
+        background-color:var(--cor-primaria);
+        padding: 5px 15px;
+        color:var(--cor-padrao);
+    }
+
+    .th-a {
+        border-top-left-radius:var(--border-radius);
+    }
+
+    .th-b {
+        border-top-right-radius:var(--border-radius);
+    }
+
+    tr td {
+        padding: 5px 15px;
+    }
+
+    .td-a, .td-b{
+        background-color:var(--cor-background);
+    }
