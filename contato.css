@@ -1,0 +1,31 @@
+.iaP {
+    background-color: var(--cor-padrao);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadows);
+    color: var(--cor-text);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+}
+
+    .iaP h3 {
+        color: var(--cor-primaria);
+    }
+
+    .iaP ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        list-style-type: none;
+        padding: 8px 0;
+    }
+
+    .iaP li {
+        background-color: var(--cor-primaria);
+        border-radius: var(--border-radius);
+        color: var(--cor-padrao);
+        padding: 5px 10px;
+    }

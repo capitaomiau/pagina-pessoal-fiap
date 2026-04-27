@@ -1,0 +1,97 @@
+.g {
+    padding: 0 20px;
+}
+
+.Fiap {
+    color: var(--cor-text);
+    display: flex;
+    gap: 30px;
+    margin: 20px 20px 50px 20px;
+    flex-wrap: wrap;
+}
+
+        @media (max-width: 600px) {
+            .Fiap {
+                flex-direction: column;
+                margin: 15px 12px 40px 12px;
+                gap: 20px;
+                }
+
+            .forms, .iaP {
+                min-width: unset;
+            }
+
+            .g {
+                padding: 0 12px;
+                }
+        }
+
+.forms {
+    background-color: var(--cor-padrao);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadows);
+    padding: 20px;
+    font-weight: bold;
+    flex: 1;
+    min-width: 260px;
+}
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label {
+        color: var(--cor-primaria);
+        padding: 3px;
+    }
+
+    form label::after {
+        content: "*";
+        color: var(--cor-accents);
+    }
+
+    form input {
+        padding: 10px;
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadows);
+        border: transparent;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+
+    form textarea {
+        border: transparent;
+        box-shadow: var(--box-shadows);
+        font-family: var(--font-global);
+        padding: 8px;
+        border-radius: var(--border-radius);
+        width: 100%;
+        resize: vertical;
+    }
+
+    form button {
+        color: var(--cor-padrao);
+        background-color: var(--cor-primaria);
+        border-radius: var(--border-radius);
+        border: transparent;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 12px 24px;
+        transition: background 0.3s;
+        margin-top: 10px;
+    }
+
+    form button:hover {
+        background-color: var(--cor-background);
+        color: var(--cor-secundaria);
+    }
+
+    label {
+        color: var(--cor-text);
+    }
+
+    form h3 {
+        color: var(--cor-accents);
+        margin-bottom: 10px;
+    }

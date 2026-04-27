@@ -1,0 +1,12 @@
+:root {
+     --cor-primaria: #6D28D9;
+     --cor-secundaria: #34D399;
+     --cor-background: #F5F3FF;
+     --cor-text: #1E1B4B;
+     --cor-accents: #F97316;
+     --cor-padrao: white;
+
+     --border-radius: 20px;
+     --box-shadows: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
