@@ -34,9 +34,17 @@
     }
 
     .x {
-        background-color:var(--cor-accents);
-        color:var(--cor-padrao);
+        
+        color:var(--cor-accents);
+        border: 1px solid var(--cor-accents);
         border-radius:var(--border-radius);
         box-shadow:var(--box-shadows);
         padding: 0.9rem;
+    }
+
+    .summary-item {
+        color: var(--cor-primaria);      
+        border-radius:var(--border-radius);
+        box-shadow:var(--box-shadows);
+        padding: 0.5rem;
     }
