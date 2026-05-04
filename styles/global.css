@@ -6,7 +6,25 @@
 
 html {
     font-size: 18px;
-    
+    scroll-behavior: smooth;
+}
+#voltar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: none;
+  z-index: 100;
+}
+
+#voltar:hover {
+  background-color: #4b0082;
 }
 
 body {
