@@ -44,11 +44,9 @@ const regexNome = /^[A-Za-zÀ-ÖØ-öø-ÿ\s]+$/
 
 nome.addEventListener("blur", function() {
   if (!regexNome.test(nome.value.trim()) || nome.value.trim().length < 3) {
-    tupla.classList.add("alput")
     tupla.textContent = "⨻ Nome deve ter pelo menos 3 caracteres e conter apenas letras."
     nome.classList.add("out")
   } else {
-    tupla.classList.remove("alput")
     tupla.textContent = ""
     nome.classList.remove("out")
   }
@@ -56,11 +54,9 @@ nome.addEventListener("blur", function() {
 
 email.addEventListener("blur", function() {
   if (!regexEmail.test(email.value.trim())) {
-    mail.classList.add("alput")
     mail.textContent = "⨻ Por favor, insira um email válido. (ex: usuario@dominio.com)"
     email.classList.add("out")
   } else {
-    mail.classList.remove("alput")
     mail.textContent = ""
     email.classList.remove("out")
   }
@@ -68,11 +64,9 @@ email.addEventListener("blur", function() {
 
 mensagem.addEventListener("blur", function() {
   if (mensagem.value.trim().length < 10) {
-    box.classList.add("alput")
     box.textContent = "⨻ A mensagem deve conter pelo menos 10 caracteres."
     mensagem.classList.add("out")
   } else {
-    box.classList.remove("alput")
     box.textContent = ""
     mensagem.classList.remove("out")
   }
