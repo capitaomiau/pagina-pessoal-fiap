@@ -398,15 +398,28 @@
 
               <div class="forms">
 
+                <div class="sucesso">
+                  <h2>Mensagem Enviada!</h2>
+                  <p>Obrigado por entrar em contato. Sua mensagem foi enviada com sucesso e em breve retornarei o contato.</p>
+                </div>
+                <div class="falhou">
+                  <h2>Mensagem não enviada!</h2>
+                  <p>Obrigado por entrar em contato. Sua mensagem não foi enviada. Por favor, tente novamente.</p>
+                </div>
+
+
                 <form action="#" method="get" name="register">
 
-                  <h3>Envie sua mensagem</h3><br>
+                  <h3>Envie sua mensagem</h3>
                   
                     <label for="name">Nome</label>
-                    <input type="text" id="name" name="name" placeholder="Digite seu nome" required><br>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                    <span id="tupla"></span>
                     <label for="emailaddress">Email</label>
-                    <input type="email" id="emailaddress" name="emailaddress" placeholder="Digite seu email" required><br>
+                    <input type="email" id="emailaddress" name="emailaddress" placeholder="Digite seu email" required>
+                    <span id="mail"></span>
                     <label for="message">Mensagem</label>
+                    <span id="box"></span>
                     <textarea id="message" name="messagem" maxlength="400" cols="50" rows="7" placeholder=" Digite sua mensagem" required></textarea><br>
                     <button>Enviar</button>
               
